@@ -3,7 +3,7 @@ from discord.ext import commands
 import os
 from pymongo import MongoClient
 
-TOKEN = "NzgxMTAyMjcxOTkxNjQ0MjEx.X74wLQ.xnM4ZuRdgu7w66W7jV5Iw_Q73t4"
+TOKEN = os.environ["TOKEN"]
 MONG0 = "mongodb+srv://eyzenhart:H0ZFBDMfmSQqS3qe@cluster0.ngjuw.mongodb.net/ezequiel?retryWrites=true&w=majority"
 PREFIX = ("?", "!")
 INTENTS = discord.Intents().all()
